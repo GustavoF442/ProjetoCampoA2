@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Inicia o Header */
+header {
+    font-family: 'Roboto';
+}
+.nav-top {
+    width: 100%;
+    height: 35px;
+    background-color: #5d5650;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top a {
+    color: white;
+}
+
+.right-side {
+    display: flex;
+    float: right;
+    margin-left: 10px;
+}
+
+.right-side a {
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.right-side img {
+    align-items: center;
+    margin: 9px;
+}
+
+.nav-top img {
+    width: 18px;
+    height: 18px;
+}
+
+.left-side  {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+.left-side img {
+    width: 20px;
+    margin: 9px;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    line-height: 65px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+    margin-right: 70px;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 17px;
+    padding: 0;
+    padding-right: 4rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #858585;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.navlinks button {
+    color: white;
+    line-height: 25px;
+    font-size: 25px;
+    background-color: #B2B74A;
+    width: 145px;
+    height: 55px;
+    border: none;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #B2B74A;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/* Finaliza o Header */
+
+/* Inicio login */
+
+.textobanner {
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.imgfundologin{
+    display: flex;
+    margin-top: -5px;
+}
+
+.catalago1{
+    position: absolute;
+    display: flex;
+    top: 700px;
+    left: 630px;
+}
+
+/* Inicio imput login */
+
+.telalogin{
+    background-color: rgba(255, 255, 255, 0.826);
+    position: absolute;
+    top: 160%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    padding: 160px;
+    padding-top: 280px;
+}
+
+.telalogin h1{
+    position: absolute;
+    top: 120px;
+    right: 299px;
+    align-items: center;
+
+}
+
+button {
+   background-color: #3a3a3a;
+   border: none;
+   padding: 15px;
+   width: 100%;
+   color: white;
+}
+
+button:hover{
+    background-color:#363636 ;
+}
+
+.telalogin input {
+  display: flex;
+  border: none;
+  padding: 12px;
+  outline: none;
+  font-size: 12px;
+  width: 400px;
+  height: 100%;
+}
+
+input {
+   background-color: #ffffff;
+   color: #B2B74A;
+}
+
+/* Começa o Footer */
+
+footer {
+    background-color: #5d5650;
+    width: 100%;
+    height: 800px;
+    margin-top: -1px;
+}
+
+.end {
+    font-size: 18px;
+    float: right;
+    background-color: #5d5650;
+    color: white;
+    padding: 70px;
+}
+
+.end img {
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    position: relative;
+    
+}
+
+.end a {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.e-mail2 {
+    margin-bottom: -60px;
+    margin-top: 70px;
+}
+
+.fone2 {
+    margin-top: 60px;
+}
+
+.texto {
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+    color: white;
+    font-size: 18px;
+    height: 300px;
+    width: 220px;
+}
+
+.credits {
+    width: 100%;
+    height: 1px;
+    float: right;
+    margin-top: 60px;
+}
+
+.credits p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 50px;
+    color: #d1d1d1;
+}
+
+.credits hr {
+    height: 1px;
+    background: #d1d1d1;
+    border: none;
+  }
+  
+/* Finaliza o Footer */
